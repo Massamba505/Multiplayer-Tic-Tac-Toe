@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Game</title>
+    <link rel="stylesheet" href="/styles/play.css">
+    <script src="/socket.io/socket.io.js"></script>
+</head>
+<body>
+    <a id="leave" href="/home">Leave</a>
+    <h1>Tic Tac Toe</h1>
+    <div class="who">
+        <p id="left">Massamba</p>
+        <p>vs</p>
+        <p id="right">Zoro</p>
+    </div>
+    <p id="value">You are <span id="my_value"> X </span></p>
+    <p id="turn"><span id="what"> X </span>'s turn </p>
+    <div class="container">
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+        <div class="btn"><span></span></div>
+    </div>
+    <script src="/js/play.js"></script>
+</body>
+</html>

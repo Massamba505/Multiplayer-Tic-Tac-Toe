@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="/styles/home.css">
 </head>
 <body>
-
+    <p id="username"></p>
     <h1>Select Game Mode</h1>
     <div class="container">
-        <div class="btn">New Game</div>
-        <div class="btn">Join Game</div>
-        <div class="btn">Random Game</div>
+        <a href="/game/waiting-room"><div class="btn">New Game</div></a>
+        <a href="/game/join"><div class="btn">Join Game</div></a>
+        <a href="/home"><div class="btn">Random Game</div></a>
     </div>
+
+    <script>
+        const username = localStorage.getItem("username");
+        if(!username){
+            window.location.href = "/";
+        }
+        localStorage.removeItem("code");
+        localStorage.removeItem("what");
+
+        document.getElementById("username").textContent = username;
+        if(document.getElementById("username").textContent.length > 15){
+            document.getElementById("username").textContent = username.substring(0, 15) + "...";
+        }
     
+    </script>
 </body>
 </html>

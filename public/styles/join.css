@@ -67,6 +67,27 @@ form{
     font-size: 1em;
 }
 
-#btn:hover{
+#btn:hover, a:hover{
     box-shadow: black 4px 4px 1px;
+}
+
+
+a{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 5em;
+    height: 3em;
+    font-weight: bold;
+    background-color: #53a8b6;
+    color: white;
+    cursor: pointer;
+    border: 1px solid #bbe4e9;
+    border-radius: 1em;
+    box-shadow: black 2px 2px;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
 }

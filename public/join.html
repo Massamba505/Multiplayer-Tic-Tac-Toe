@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Join Game</title>
-    <link rel="stylesheet" href="join.css">
+    <link rel="stylesheet" href="/styles/join.css">
+    <script src="/socket.io/socket.io.js"></script>
 </head>
 <body>
+    <a href="/home">back</a>
     <h1>Join Game</h1>
     <h2>Enter the joining code:</h2>
     <div class="container">
@@ -15,7 +17,8 @@
             <br>
             <button id="btn" type="submit">Join</button>
         </form>
-    </div>  
-    
+    </div>
+
+    <script src="/js/join.js"></script>
 </body>
 </html>
