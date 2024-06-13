@@ -3,15 +3,15 @@
 A real-time multiplayer Tic-Tac-Toe game built with Node.js, Express, and Socket.IO. Players can create or join game rooms, and the game updates in real-time as players make their moves.
 
 ## Gameplay Demo
-<div style="display: flex;  gap: 10px; flex-wap: wrap">
-    <img src="game_play_images/username.png" alt="picture" width="350" height="200">
-    <img src="game_play_images/home.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/create-game.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/join-game.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/two-screen.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/waitin-room.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/game-play.png" alt="picture"  width="350" height="200">
-    <img src="game_play_images/winner.png" alt="picture"  width="350" height="200">
+<div style="display: flex; flex-wap: wrap; flex-direction: column">
+    <img src="game_play_images/username.png" alt="picture" width="800px" height="500px">
+    <img src="game_play_images/home.png" alt="picture" width="800px" height="500px">
+    <img src="game_play_images/create-game.png" alt="picture" width="800px" height="500px">
+    <img src="game_play_images/join-game.png" alt="picture"  width="800px" height="500px">
+    <img src="game_play_images/two-screen.png" alt="picture"  width="800px" height="500px">
+    <img src="game_play_images/waitin-room.png" alt="picture"  width="800px" height="500px">
+    <img src="game_play_images/game-play.png" alt="picture" width="800px" height="500px">
+    <img src="game_play_images/winner.png" alt="picture" width="800px" height="500px">
 </div>
 
 ## Features
