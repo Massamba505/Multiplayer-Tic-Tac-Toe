@@ -64,9 +64,9 @@ h1{
 #leave{
     position: absolute;
     top: 5px;
-    left: 5px;
+    right: 5px;
     width: 5em;
-    height: 3em;
+    height: 2em;
     font-weight: bold;
     background-color: #53a8b6;
     color: white;

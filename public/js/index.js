@@ -19,6 +19,7 @@ frmName.addEventListener("submit",(e)=>{
     })
     .then(data=>{
        if (data.status == 200) {
+            localStorage.setItem("username",username);
             window.location.href = "/home";
        }
        else {
@@ -30,5 +31,4 @@ frmName.addEventListener("submit",(e)=>{
     .catch(err=>{
         console.log(err);
     });
-    localStorage.getItem("username",username);
 });
